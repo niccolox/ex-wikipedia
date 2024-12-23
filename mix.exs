@@ -7,7 +7,7 @@ defmodule ExWikipedia.MixProject do
     [
       app: :ex_wikipedia,
       version: @version,
-      elixir: "~> 1.13.4",
+      elixir: "~> 1.16.3",
       package: package(),
       description: "Elixir wrapper for Wikipedia's API.",
       start_permanent: Mix.env() == :prod,
